@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+    <title>Website Teknik Telekomunikasi</title>
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand ml-3" href="#">
+                <img src="image/polines.png" width="200">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse"></div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#d3-telkom">D3 Teknik Telekomunikasi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">D4 Teknik Telekomunikasi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#lab">Laboratorium</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tugas Akhir</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+    
+    <main>
+        <div class="container-fluid p-0 m-0">
+            <div class="site-content">
+                <div class="d-flex justify-content-center">
+                    <div class="d-flex flex-column">
+                      <h1 class="site-title">Selamat Datang</h1>
+                      <p class="site-desc">Ini adalah Website Teknik Telekomunikasi</p>
+
+                      <div class="d-flex flex-row justify-content-center">
+                        <input type="button" value="Login" class="btn site-btn1 px-4 py-2 btn-primary">
+                      </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-1" id="d3-telkom">
+          <div class="container text-center">
+            <h1 class="heading-1">D3 Teknik Telekomunikasi</h1>
+            <h2 class="heading-2">Profil Lulusan</h2>
+            <p class="para-1">Lulusan program ini memiliki kompetensi terhadap Instalasi dan perawatan 
+              infrastruktur dalam bidang jaringan komunikasi data (internet working), bidang mobile communication
+              (hand-phone, dll), jaringan access telephone broad band (pengembangan telepon kabel menjadi telepon 
+              multi media).
+            </p>
+            
+            <div class="jquery-effect" style="margin: 2%;">
+              <button id="hide" class="btn btn-primary">Sembunyikan Gambar</button>
+              <button id="show" class="btn btn-primary" style="margin: 2%;">Tampilkan Gambar</button>
+            </div>
+            <div class="row justify-content-center text-center">
+              <div class="col-md-4">
+                <div class="card" style="width: 20rem;">
+                  <img src="image/engine_2.jpg" alt="pict-1" class="card-img-top">
+                  <div class="card-body">
+                    <h4 class="card-title">Engineer</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 20rem;">
+                  <img src="image/engine_2.jpg" alt="pict-1" class="card-img-top">
+                  <div class="card-body">
+                    <h4 class="card-title">Engineer</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card" style="width: 20rem;">
+                  <img src="image/engine_2.jpg" alt="pict-1" class="card-img-top">
+                  <div class="card-body">
+                    <h4 class="card-title">Engineer</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      
+        <div class="section-2" id="lab">
+          <div class="container-fluid text-center">
+            <h1 class="heading-3">Laboratorium</h1>
+            <p class="para-2">Teknik Telekomunikasi juga memiliki laboratorium yang digunakan untuk menunjang kegiatan praktik.</p>
+
+            <div class="d-flex justify-content-center">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Wireless Sensor Network</h5>
+                      <p class="card-text">Wireless Sensor Network adalah sebuah kumpulan node yang dapat berupa sensor yang akan 
+                        melakukan pengambilan data pada parameter ukur dan kemudian dikirimkan pada sebuah node sentral 
+                        atau sebuah server untuk dilakukan pengolahan data (Firdaus, 2014)
+                      </p>
+                      <a href="#" class="btn btn-primary">Lihat</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Internet of Things</h5>
+                      <p class="card-text">Internet of Things merupakan sebuah konsep yang bertujuan untuk memperluas manfaat dari konektivitas internet yang tersambung secara terus-menerus. Adapun kemampuan seperti berbagi data, remote control, dan sebagainya, termasuk juga pada benda di dunia nyata.</p>
+                      <a href="#" class="btn btn-primary">Lihat</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </main>
+
+    <footer>
+      <div class="section-3 text-center">
+        <p>Copyright &copy; Prodi Telkom Polines</p>
+      </div>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+  </body>
+</html>
